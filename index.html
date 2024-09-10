@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>@blockchaincoder - ERC20 Token Staking dApp</title>
+  <link rel="icon" href="assets/img/fevicon.png" />
+  <link rel="stylesheet" type="text/css" href="assets/vendor/notyf/notyf.min.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+
+</head>
+
+<body>
+  <!----PRELOADER-->
+  <div id="gameon-preloader" class="gameon-preloader">
+    <div class="preloader-animation">
+      <div class="spinner"></div>
+      <p class="fw-5 text-center text-uppercase">Loading</p>
+    </div>
+    <div class="loader-animation">
+      <div class="row h-100">
+        <!----Single-loader-->
+        <div class="col-3 single-loader p-0">
+          <div class="loader-bg"></div>
+        </div>
+
+        <!----Single-loader-->
+        <div class="col-3 single-loader p-0">
+          <div class="loader-bg"></div>
+        </div>
+
+        <!----Single-loader-->
+        <div class="col-3 single-loader p-0">
+          <div class="loader-bg"></div>
+        </div>
+
+        <!----Single-loader-->
+        <div class="col-3 single-loader p-0">
+          <div class="loader-bg"></div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+  <!----PRELOADER END-->
+
+  <!-- MAIN START -->
+
+  <div class="main">
+    <!-- Header Section-->
+    <header id="header">
+      <nav data-aos="zoom-out" data-aos-delay="800" class="navbar gameon-navbar navbar-expand">
+        <div class="container header">
+          <a href="index.html" class="navbar-brand">
+            <img src="assets/img/logo/logo.png" alt="Brand Logo" />
+          </a>
+
+          <div class="ml-auto"></div>
+
+          <ul class="navbar-nav items mx-auto">
+            <li class="nav-item active">
+              <a href="index.html" class="nav-link active">
+                Home
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="staking-1.html" class="nav-link">
+                Stacking
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link">
+                Contact
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="register.html" class="nav-link">
+                Initialize
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="analytic.html" class="nav-link">
+                Profile
+              </a>
+            </li>
+
+          </ul>
+          <!-- Navbar Toggle -->
+          <ul class="navbar-nav icons">
+            <li class="nav-item">
+              <a href="#" class="nav-link" data-toggle="modal" data-target="#search">
+                <i class="icon-magnifier"></i>
+              </a>
+            </li>
+          </ul>
+
+          <!-- Navbar Toggle -->
+          <ul class="navbar-nav toggle">
+            <li class="nav-item">
+              <a href="#" class="nav-link" data-toggle="modal" data-target="#menu">
+                <i class="icon-menu m-0"></i>
+              </a>
+            </li>
+          </ul>
+
+          <!-- Navbar Action Button -->
+
+          <ul class="navbar-nav action">
+            <!-- Two border came so i have commented maybe it is in refrence code -->
+            <!-- <li class="btn ml-lg-auto btn-bordered-white"> -->
+            <li>
+              <a class="btn ml-lg-auto btn-bordered-white">
+                <i class="icon-wallet mr-md-2"></i> Wallet Connect
+              </a>
+            </li>
+          </ul>
+        </div>
+
+      </nav>
+    </header>
+
+    <!-- Header Section END -->
+
+
+    <!-- Breadcrumb Section Start -->
+
+    <section class="breadcrumb-area overlay-dark d-flex align-items-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="breadcrumb-contest text-center">
+              <h2 class="m-0">Stacking</h2>
+              <ol class="breadcrumb d-flex justify-content-center">
+                <li class="breadcrumb-item">
+                  <a href="index.html">Home</a>
+                </li>
+                <li class="breadcrumb-item">
+                  <a href="#">Stacking</a>
+                </li>
+                <li class="breadcrumb-item active">
+                  <a href="#">Stacking</a>
+                </li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Breadcrumb Section End -->
+
+
+    <!-- CTA are or Section Start -->
+
+    <section class="cta-area p-0">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 card">
+            <div class="row align-items-center justify-content-center">
+              <div class="col-12 col-md-5 text-center">
+                <img src="assets/img/content/cta_thumb.png" alt="" />
+
+              </div>
+
+              <div class="col-12 col-md-6 mt-4 mt-md-0">
+                <h2 class="m-0">Apply for IGO</h2>
+                <p>
+                  Get Access to Set of Tools for Staking your ERC20 tokens and Earn rewards
+                </p>
+
+                <a href="#" class="btn btn-bordered-active d-inline-block">
+                  <i class="icon-rocket mr-2">Apply Now</i>
+                </a>
+              </div>
+            </div>
+            <a href="#" class="cta-link"></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA are or Section End -->
+
+    <!-- Footer Section Start -->
+
+    <footer class="footer-area">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-8 text-center">
+            <!-- Footer Items -->
+            <div class="footer-items">
+              <!-- Logo -->
+              <a href="index.html" class="navbar-brand">
+                <img src="assets/img/logo/logo.png" alt="" />
+
+              </a>
+
+              <!-- Social items -->
+
+              <div class="social-icons d-flex justify-content-center my-4">
+                <a href="#" class="facebook" target="_blank">
+                  <i class="icon-social-facebook"></i>
+                  <i class="icon-social-facebook"></i>
+                </a>
+                <a href="#" class="linkedin" target="_blank">
+                  <i class="icon-social-linkedin"></i>
+                  <i class="icon-social-linkedin"></i>
+                </a>
+                <a href="#" class="twitter" target="_blank">
+                  <i class="icon-social-twitter"></i>
+                  <i class="icon-social-twitter"></i>
+                </a>
+                <a href="#" class="reddit" target="_blank">
+                  <i class="icon-social-reddit"></i>
+                  <i class="icon-social-reddit"></i>
+                </a>
+                <a href="#" class="youtube" target="_blank">
+                  <i class="icon-social-youtube"></i>
+                  <i class="icon-social-youtube"></i>
+                </a>
+              </div>
+
+              <ul class="list-inline">
+                <li class="list-inline-item">
+                  <a href="#">Features</a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#">Roadmap</a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#">How it Works</a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#">Blog</a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#">Privacy Policy</a>
+                </li>
+              </ul>
+
+              <!-- Copyright Section -->
+              <div class="copyright-area py-4">
+                &copy;2024 @kaushal_savaliya, All Rights Reserved by
+                <a href="https://www.kaushalsavaliya" target="_blank">
+                  @kaushal_savaliya
+                </a>
+              </div>
+            </div>
+
+            <!-- Scroll to top -->
+            <div class="scroll-to-top" id="scroll-to-top">
+              <a href="#header" class="smooth-anchor">
+                <i class="fa-solid fa-arrow-up"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+
+    <!-- Footer Section End -->
+
+    <!-- Modal search Area Start -->
+    <div id="search" class="modal fade p-0">
+      <div class="modal-dialog dialog-animated">
+        <div class="modal-content h-100">
+          <div class="modal-header" data-dismiss="modal">
+            Search <i class="far fa-times-circle icon-close"></i>
+          </div>
+
+          <div class="modal-body">
+            <form class="row">
+              <div class="col-12 align-self-center">
+                <div class="row">
+                  <div class="col-12 pb-3">
+                    <h3 class="search-title mt-0 mb-3">
+                      What are you looking for?
+                    </h3>
+                    <p>
+                      This is Token Staking Project using Dicentalized Technology
+                    </p>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-12 input-group mt-md-4">
+                    <input type="text" placeholder="Enter your keywords" />
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-12 input-group align-self-center">
+                    <button class="btn btn-bordered-white mt-3">
+                      Search
+                    </button>
+                  </div>
+                </div>
+
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal search Area End -->
+
+    <!-- Model Responsive Menu start -->
+    <div id="menu" class="modal fade p-0">
+      <div class="modal-dialog dialog-animated">
+        <div class="model-content h-100">
+          <div class="modal-header" data-dismiss="modal">
+            Menu <i class="far fa-times-circle icon-center"></i>
+            </i>
+
+          </div>
+
+          <div class="menu modal-body">
+            <div class="row w-100">
+              <div class="items p-0 col-12 text-center"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Model Responsive Menu end -->
+
+  </div>
+
+  <!-- MAIN END -->
+
+
+  <!-- Scripts -->
+  <script src="assets/js/vendor/jquery.min.js"></script>
+  <script src="assets/js/vendor/popper.min.js"></script>
+  <script src="assets/js/vendor/bootstrap.min.js"></script>
+  <script src="assets/js/vendor/all.min.js"></script>
+  <script src="assets/js/vendor/gallery.min.js"></script>
+  <script src="assets/js/vendor/slider.min.js"></script>
+  <script src="assets/js/vendor/countdown.min.js"></script>
+  <script src="assets/js/vendor/shuffle.min.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/vendor/notyf/notyf.min.js"></script>
+
+  <!-- WEB3 FUNCTION SCRIPT -->
+
+
+</body>
+
+</html>
+
